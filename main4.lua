@@ -13,3 +13,5 @@ print(type(str))
 print(2^6)   -- this is not 2 XOR 6, it's 2 raised to the power of 6
 
 print(350 % 4)   -- remainder
+
+print(math.pi)   -- printing the value of pi
