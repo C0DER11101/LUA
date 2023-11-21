@@ -6,6 +6,7 @@ print(type(str))
 
 str=tonumber(str)         -- converts str to a number
 
+
 print(type(str))
 
 -- calculating power of a number
