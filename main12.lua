@@ -61,7 +61,8 @@ print("\nMulti-dimensional table")
 local multArr={             -- the way of defining is similar to that of 2D arrays in C/C++
 	{1, 2, 3},
 	{4, 5, 6},
-	{7, 8, 9}
+	{7, 8, 9},
+	{10, 11, 12}
 }
 
 print(multArr)   -- gives the address of multArr
@@ -71,3 +72,16 @@ print(multArr[3])  -- gives the address of the third 1D array inside multArr
 
 -- Accessing elements of a multi-dimensional table(similar to accessing elements of a 2D array in C/C++)
 print("Very first element in multArr: "..multArr[1][1])  -- displays 1 because its position is (1, 1) i.e 1st row and 1st column
+print("Element in second row and first column: "..multArr[2][1])
+print(#multArr)   -- #multArr returns the number of 1d arrays in multArr
+print(#multArr[1])  -- #multArr[1] returns the number of elements in the first 1d array in multArr
+
+-- printing the whole 2d array
+print("\nThe whole 2d array:")
+
+for i=1, #multArr do
+	for j=1, #multArr[i] do
+		io.write(multArr[i][j].." ")
+	end
+	print()
+end
