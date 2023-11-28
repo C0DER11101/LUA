@@ -11,6 +11,7 @@ local table2={num=20};
 -- for that we will use meta-table
 
 local metatable={   -- __add means the '+' symbol
+	-- addTables is a metamethod
 	__add=addTables,   -- we are just saying that the '+' symbol should call the method addTables when we are adding the tables
 	__sub=function(x, y)     -- __sub means the '-' symbol and we are specifying what it should do when we write table1-table2
 		return x.num-y.num;
