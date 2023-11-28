@@ -1,6 +1,4 @@
-# Welcome!!
-
-**This repository is for the programming language Lua.**
+# <ins>LUA programming language</ins>
 
 * [<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original-wordmark.svg"/> guide\-Neovim docs](https://neovim.io/doc/user/lua-guide.html).
 * [<img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original-wordmark.svg"/> Reference Manual](https://www.lua.org/manual/5.4/).
