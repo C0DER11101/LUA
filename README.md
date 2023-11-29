@@ -14,4 +14,8 @@ _This error occurs for neovim whose versions are lower than_ $0.7.0$ _as mention
 
 _To install a greater version of neovim, follow_ [this link](https://linuxtldr.com/installing-neovim/#:~:text=So%2C%20when%20you%E2%80%99re%20ready%2C%20open%20your%20terminal%20and,pacman%20-S%20neovim%20%23For%20Arch%2C%20Manjaro%2C%20EndeavourOS%2C%20etc.). Read it and you will get your answer.
 
+$$OR$$
+
+You can also download it using [appimage](https://github.com/neovim/neovim/wiki/Installing-Neovim#linux).
+
 ---
